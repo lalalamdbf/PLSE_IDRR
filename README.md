@@ -12,7 +12,7 @@ pip install -r requirements.txt
 
 #### Pre-training data
 
-We approximately collected 0.56 million explicit argument pairs from an unannotated corpus renowned as [Gigaword]( https://aclanthology.org/W12-3018/). Please note the data is only is utilized for academic research purposes.
+We approximately collected 0.56 million explicit argument pairs from an unannotated corpus renowned as [Gigaword]( https://aclanthology.org/W12-3018/). Please note the data is only utilized for academic research purposes.
 
 #### Prompt-tuning data
 
