@@ -1,0 +1,12 @@
+CUDA_VISIBLE_DEVICES=0 python ./src/pre-training/train.py \
+  --num_epochs 2 \
+  --batch_size 64 \
+  --learning_rate 5e-6 \
+  --num_warmup_ratio 0.1 \
+  --sen_max_length 256 \
+  --initial_pretrain_model ./pretrain_model/base/roberta-base \
+  --path_model_save ./pretrain_model/plse/plse_pretrain_model \
+  --path_datasets ./src/data/explicit_data \
+  --lse \
+  --mlm \
+  --connective_mask

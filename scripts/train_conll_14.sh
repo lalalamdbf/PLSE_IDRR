@@ -1,0 +1,18 @@
+CUDA_VISIBLE_DEVICES=0 python ./src/prompt-tuning/run.py \
+  --seed 80 \
+  --gpu_ids 0 \
+  --num_train_epochs 10 \
+  --train_batch_size 16 \
+  --dev_batch_size 64 \
+  --test_batch_size 64 \
+  --learning_rate 1e-6 \
+  --pretrain_file ./pretrain_model/base/roberta-base \
+  --data_dir ./src/data/conll_14 \
+  --output_dir ./checkpoint/plse_model_conll_14 \
+  --max_seq_length 256 \
+  --num_rels 14 \
+  --plse_pretrain_file ./pretrain_model/plse/plse_pretrain_model/pretrain_state_epoch_1.ckpt \
+  --do_train \
+  --do_eval \
+  --do_test \
+  --use_pretrain
