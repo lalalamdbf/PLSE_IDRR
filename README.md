@@ -72,13 +72,17 @@ sh ./scripts/train_conll_14.sh
 If you find this repo useful, please cite our paper.
 
 ```
-@inproceedings{
-  wang-etal-2023-PLSEIDRR,
-  author = {Chenxu Wang, Ping Jian and Mu Huang},
-  title = "Prompt-based Logical Semantics Enhancement for Implicit Discourse Relation Recognition",
-  booktitle = "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
-  year = "2023",
-  address = "Singapore",
-  publisher = "Association for Computational Linguistics",
+@inproceedings{wang-etal-2023-prompt-based,
+    title = "Prompt-based Logical Semantics Enhancement for Implicit Discourse Relation Recognition",
+    author = "Wang, Chenxu  and
+      Jian, Ping  and
+      Huang, Mu",
+    booktitle = "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
+    month = dec,
+    year = "2023",
+    address = "Singapore",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.emnlp-main.45",
+    pages = "687--699",
 }
 ```
